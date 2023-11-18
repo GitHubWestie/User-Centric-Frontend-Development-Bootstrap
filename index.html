@@ -21,10 +21,13 @@
     <article class="container">
       <section class="callout">
         <h1>The finest whiskeys delivered to your doorstep</h1>
-        <p>
+        <p class="lead">
           Sign up today to start receiving the worlds best whiskey every month.
-          The first one is free!
+          <s>£19.99</s>
+          <strong><mark>The first one is free!</mark></strong>
         </p>
+        <button class="btn btn-success btn-lg">Sign up!</button>
+        <p class="text-muted"><small>You must be over 18 to sign up to our service. Please drink responsibly.</small></p>
       </section>
     </article>
 
@@ -32,22 +35,22 @@
 
     <section class="quotes">
       <h2 class="text-uppercase">Quotes:</h2>
-      <div class="quote">
+      <blockquote class="blockquote">
         <p>
           I've been introduced to 10 world class whiskeys I never knew about.
         </p>
         <p>- Jane Doe</p>
-      </div>
-      <div class="quote">
+      </blockquote>
+      <blockquote class="blockquote">
         <p>I haven't been sober in months!</p>
         <p>- Jane Doe</p>
-      </div>
+      </blockquote>
     </section>
 
     <hr />
 
     <section class="features">
-      <h2>Features:</h2>
+      <h2 class="text-uppercase">Features:</h2>
       <div class="feature">
         <h3>Feature</h3>
         <p>
@@ -59,6 +62,7 @@
           molestias fugiat expedita sint, velit eaque officia voluptatibus, odit
           quod possimus quos tenetur.
         </p>
+        <p><a class="btn btn-light btn-sm" href="">Read more</a></p>
       </div>
 
       <div class="feature">
@@ -72,6 +76,7 @@
           iure, neque perspiciatis incidunt dicta nesciunt nisi quidem
           laudantium, iste porro eius impedit ex quos!
         </p>
+        <p><a class="btn btn-light btn-sm" href="">Read more</a></p>
       </div>
 
       <div class="feature">
@@ -85,7 +90,46 @@
           delectus, quibusdam iste quisquam dolorum similique tenetur vel saepe
           eveniet cupiditate ad quia, beatae quod?
         </p>
+        <p><a class="btn btn-light btn-small" href="">Read more</a></p>
       </div>
+    </section>
+
+    <section class="monthly-favorites">
+        <h2 class="text-uppercase">Monthly Favourites</h2>
+        <table class="favourites table table-hover">
+          <thead>
+            <th></th>
+            <th scope="col">Name</th>
+            <th scope="col">Origin</th>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Talisker 10yr single malt</td>
+              <td>Scotch</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Mannochrome Single Cask</td>
+              <td>Speyside</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>Glenfiddich 15yr single malt</td>
+              <td>Scotch</td>
+            </tr>
+            <tr>
+              <th scope="row">4</th>
+              <td>Dead Rabbit</td>
+              <td>Ireland</td>
+            </tr>
+            <tr>
+              <th scope="row">5</th>
+              <td>Highland Park 12yr single malt</td>
+              <td>Ireland</td>
+            </tr>
+          </tbody>
+        </table>
     </section>
   </body>
 </html>
