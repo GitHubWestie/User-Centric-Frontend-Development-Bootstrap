@@ -19,6 +19,9 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
+
+    <script src="https://kit.fontawesome.com/0286276466.js" crossorigin="anonymous"></script>
+
   </head>
   <body>
     <nav class="navbar navbar-expand-sm bg-light">
@@ -37,7 +40,16 @@
       </div>
     </nav>
 
+
+
     <article class="container mt-3">
+        <div class="row d-none d-sm-block">
+            <div class="col">
+                <div class="alert alert-warning">
+                    <strong>Sale now on!</strong>We've got a sale on. Get a 12 month sub for the price of 6! <a href="/">Click here for details</a>
+                </div>
+            </div>
+        </div>
       <div class="row">
         <div class="col-12">
           <section
@@ -75,22 +87,33 @@
       <div class="row">
         <div class="col-12 col-md-6">
             <div class="media">
-                <img src="" alt="">
-                <blockquote class="blockquote">
-                    <p>
-                    I've been introduced to 10 world class whiskeys I never knew
-                    about.
-                    </p>
-                    <p>- Jane Doe</p>
-                </blockquote>
+                <div class="d-none d-sm-block">
+                    <img src="images/girl-image.png" class="rounded-circle mr-3" height="100" alt="young girl">
+                        <div class="media-body">
+                            <blockquote class="blockquote">
+                                <p>
+                                I've been introduced to 10 world class whiskeys I never knew
+                                about.
+                                </p>
+                                <p>- Jane Doe</p>
+                            </blockquote>
+                        </div>
+                </div>
             </div>
         </div>
 
         <div class="col-12">
-          <blockquote class="blockquote">
-            <p>I haven't been sober in months!</p>
-            <p>- Jane Doe</p>
-          </blockquote>
+            <div class="media">
+                <div class="d-none d-sm-block">
+                    <img src="images/guy-image.png" class="rounded-circle mr-3" height="100" alt="young guy">
+                    <div class="media-body">
+                        <blockquote class="blockquote">
+                            <p>I haven't been sober in months!</p>
+                            <p>- Jane Doe</p>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
         </div>
       </div>
     </section>
@@ -107,7 +130,7 @@
       <div class="row">
         <div class="col-12 col-md-6 col-lg-4">
           <div class="feature">
-            <h3>Feature</h3>
+            <h3><i class="fa-solid fa-gift d-none d-sm-block"></i> Feature <span class="badge bg-success">NEW!</span></h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi ea
               ut modi veniam in asperiores. Obcaecati veniam nam praesentium
@@ -123,7 +146,7 @@
 
         <div class="col-12 col-md-6 col-lg-4">
           <div class="feature">
-            <h3>Feature</h3>
+            <h3><i class="fa-solid fa-credit-card d-none d-sm-block"></i> Feature</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Laudantium, quis! Quam, perspiciatis. Beatae earum tenetur
@@ -140,7 +163,7 @@
 
         <div class="col-12 d-md-none d-lg-block col-lg-4">
           <div class="feature">
-            <h3>Feature</h3>
+            <h3><i class="fa-solid fa-circle-xmark d-none d-sm-block"></i> Feature</h3>
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               Praesentium, nam adipisci dicta ex necessitatibus reprehenderit
